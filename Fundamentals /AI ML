@@ -1,0 +1,19 @@
+Enabling Computers to Learn and Decide
+Human Intelligence (HI) and Artificial Intelligence (AI) pertain to information processing and decision-making. While humans naturally process multifaceted information and make decisions, the goal of AI is to enable machines to mimic this ability.
+
+For instance, recognizing a favorite song involves processing various data points:
+
+Sound
+Lyrics
+Artist
+Video
+Title, and
+Similarity to other songs.
+This lesson is about how we can implement machine learning to process information and make informed decisions, like identifying a song's artist with a degree of certainty.
+
+Key Terms and Concepts:
+Human Intelligence (HI): The innate ability of humans to process information and make decisions based on it.
+Artificial Intelligence (AI): The endeavor to equip machines with human-like information processing and decision-making capabilities.
+Machine Learning (ML): A subset of AI, it involves training computers to learn from data and improve over time.
+Data Points: Individual pieces of information processed for decision-making.
+Certainty: The level of confidence in making a decision based on processed information.
