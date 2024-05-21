@@ -1,0 +1,18 @@
+In our video, we explain the fundamentals of creating artificial intelligence (AI) using machine learning (ML). The key points covered include:
+
+AI and ML Process - This involves gathering data, 
+employing ML algorithms to learn from it, 
+and developing predictive models.
+
+AWS and Pre-Trained Models - Amazon Web Services (AWS) provides pre-trained models for common tasks,
+saving users the effort of creating and maintaining their own models.
+
+Amazon Rekognition - An AWS service that uses deep learning to analyze images and videos for tasks such as facial analysis and object identification, 
+it requires no ML expertise from the user.
+
+Label Detection Demo - The video showcases how Rekognition detects and labels objects in images—such as people, 
+skateboards, or trains—and gives confidence scores for each detection.
+
+Integration with Applications - The Rekognition API facilitates integration with applications,
+enabling users to send images for analysis and receive detailed information,
+including the locations of objects within the images.
