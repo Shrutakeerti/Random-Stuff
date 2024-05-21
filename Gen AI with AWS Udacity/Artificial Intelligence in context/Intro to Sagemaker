@@ -1,0 +1,56 @@
+# Defining the Responses Dictionary
+responses = {
+"hi": "Hello there! How can I assist you today?",
+"how are you": "I'm a bot, so I don't have feelings, but I'm functioning properly!",
+"bye": "Goodbye! Have a great day!",
+"help": "Sure, I can help you. What do you need assistance with?",
+}
+responses is a Python dictionary that acts as a simple database for the chatbot. Each key is a possible message that the chatbot can recognize (e.g., "hi", "how are you"), and each value is the chatbot's predefined response to that message.
+# Defining the Function to Get Bot Responses
+def get_bot_response(user_input):
+user_input = user_input.lower()
+return responses.get(user_input, "I'm not sure how to respond to that. Can you try asking something else?")
+def get_bot_response(user_input): defines a function in Python called get_bot_response, which will process the user's input.
+user_input = user_input.lower() takes the user's input and converts it to lowercase. This is done so the chatbot can match the input to the keys in the responses dictionary without being case-sensitive.
+return responses.get(user_input, "I'm not sure how to respond to that. Can you try asking something else?") uses the .get() method to look for the user_input in the responses dictionary. If user_input is found, it returns the associated response. If it's not found, it returns a default message: "I'm not sure how to respond to that. Can you try asking something else?"
+# Running the Main Chat Loop
+while True:
+user_input = input("You: ")
+if user_input.lower() == "quit":
+  print("Bot: Goodbye!")
+  break
+response = get_bot_response(user_input)
+print(f"Bot: {response}")
+while True: starts an infinite loop. This allows the chatbot to continue running and responding to user input until it's explicitly told to stop.
+user_input = input("You: ") displays "You: " to the user and waits for them to enter their message. This message is stored in the variable user_input.
+if user_input.lower() == "quit": checks if the user has typed "quit" (case-insensitive) as their message.
+print("Bot: Goodbye!") sends a farewell message to the user if they've decided to quit.
+break exits the while loop, effectively ending the chatbot session.
+response = get_bot_response(user_input) calls the get_bot_response function with the user's input to get the appropriate response from the chatbot.
+print(f"Bot: {response}") prints out the chatbot's response to the console.
+Complete Code from Video
+# Define a dictionary with predefined responses
+responses = {
+    "hi": "Hello there! How can I assist you today?",
+    "how are you": "I'm a bot, so I don't have feelings, but I'm functioning properly!",
+    "bye": "Goodbye! Have a great day!",
+    "help": "Sure, I can help you. What do you need assistance with?",
+}
+
+# Function to get the bot response
+def get_bot_response(user_input):
+    # Make the input lowercase to match the dictionary keys
+    user_input = user_input.lower()
+
+    # Return the matching response if it exists, otherwise return a default response
+    return responses.get(user_input, "I'm not sure how to respond to that. Can you try asking something else?")
+
+# Main chat loop
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == "quit":
+        print("Bot: Goodbye!")
+        break
+
+    response = get_bot_response(user_input)
+    print(f"Bot: {response}")
