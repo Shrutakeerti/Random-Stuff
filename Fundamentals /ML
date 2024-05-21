@@ -1,0 +1,19 @@
+Building a Game: A Dive into Machine Learning Systems
+The journey of teaching a computer to play a video game unveils the essence of Machine Learning (ML), a vital segment of Artificial Intelligence (AI). In this realm, we craft machine learning algorithms to empower a computer system to autonomously learn from data, devoid of manual, step-by-step guidance. Encoded in languages like Python, these algorithms sift through data to unearth patterns, laying the groundwork for future predictions. The ensemble of data, ML algorithms, and the learning trajectory constitute a Machine Learning System. At its core lie three pillars:
+
+Data - The myriad forms of digital information like images, text, pixels, and numbers that fuel the learning process.
+ML Algorithm Code - The rulebook guiding the processing of data.
+Machine Learning Model - Often dubbed as the system's "brain," it harnesses algorithms to process data, paving the path for predictions or decisions.
+The venture begins with training the model using a designated algorithm, transitioning next to testing its performance with fresh data, akin to gauging a game-playing bot's prowess in a gaming arena. Through a cycle of training, testing, and adjustments, we endeavor to escalate the model's performance to hit the bullseye—be it triumphing in a game or nailing a song artist identification.
+
+how machine learning works - data is inputed into a machine learning algorithm and model as the process of model training.  The trained model is then tested and validated and then used in production
+How Machine Learning Works
+
+Key Terms and Concepts
+Machine Learning (ML) -The compass directing computers towards autonomous learning and pattern discernment from data, under the vast umbrella of AI.
+Machine Learning System - The harmonious blend of data, ML algorithms, and a machine learning model.
+Machine Learning Model - The system's intellect, processing data through algorithms to forge predictions or decisions.
+Training - The saga of nurturing the model by processing data through the ML algorithm code.
+Testing - The act of gauging the model's mettle using new data, post-training.
+Iteration - The cycle of tweaking algorithms and data, coupled with re-training, aiming to uplift model performance.
+
