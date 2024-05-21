@@ -1,0 +1,14 @@
+Pattern Matching is like a game of recognizing words or phrases and linking them to responses.
+Rules-based Systems are a set of instructions that tell ELIZA what to say when it recognizes certain patterns.
+
+the first chatbot during 1960s was- https://anthay.github.io/eliza.html
+Eliza, a therapist 
+Look at ELIZA's responses 
+and think about why it might have said what it did.
+Try to identify keywords in your input that ELIZA might be responding to.
+
+Continue the conversation with ELIZA using various phrases:
+Share a feeling: "I feel happy today."
+Ask a question: "What should I do now?"
+Make a statement: "I am worried about my exams."
+Note how ELIZA responds to each type of input.
