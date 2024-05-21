@@ -1,11 +1,12 @@
 # Defining the Responses Dictionary
-responses = {
+responses = 
+{
 "hi": "Hello there! How can I assist you today?",
 "how are you": "I'm a bot, so I don't have feelings, but I'm functioning properly!",
 "bye": "Goodbye! Have a great day!",
 "help": "Sure, I can help you. What do you need assistance with?",
 }
-responses is a Python dictionary that acts as a simple database for the chatbot. Each key is a possible message that the chatbot can recognize (e.g., "hi", "how are you"), and each value is the chatbot's predefined response to that message.
+# responses is a Python dictionary that acts as a simple database for the chatbot. Each key is a possible message that the chatbot can recognize (e.g., "hi", "how are you"), and each value is the chatbot's predefined response to that message.
 # Defining the Function to Get Bot Responses
 def get_bot_response(user_input):
 user_input = user_input.lower()
@@ -28,7 +29,7 @@ print("Bot: Goodbye!") sends a farewell message to the user if they've decided t
 break exits the while loop, effectively ending the chatbot session.
 response = get_bot_response(user_input) calls the get_bot_response function with the user's input to get the appropriate response from the chatbot.
 print(f"Bot: {response}") prints out the chatbot's response to the console.
-Complete Code from Video
+# Complete Code from Video
 # Define a dictionary with predefined responses
 responses = {
     "hi": "Hello there! How can I assist you today?",
