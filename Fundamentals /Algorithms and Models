@@ -1,0 +1,30 @@
+Machine Learning Approaches
+Building a machine learning model involves deciding on the learning type, selecting an approach or algorithm, and then training the model to optimize its performance. This journey begins with traditional machine learning approaches like:
+
+Decision Trees
+Regression
+Clustering Algorithms
+which are apt for structured data. However, for handling large volumes of unstructured data and achieving high accuracy in complex tasks, deep learning, powered by neural networks, becomes the go-to.
+
+The choice between traditional machine learning and deep learning hinges on the data, the problem at hand, and the available resources.
+
+Traditional Machine Learning
+Decision Trees - Flowchart-like structures aiding in decision-making based on data features.
+Regression Algorithms - Useful for predicting numerical values by modeling relationships between variables.
+Clustering Algorithms - Group data into clusters based on similarity, aiding in data segmentation and categorization.
+**Traditional Machine Learning Approaches** include decision trees, regression algorithms, and K-means
+Traditional Machine Learning Approaches
+
+Deep Learning
+Artificial Neural Networks - Inspired by the human brain, these networks excel in processing huge amounts of data and learning patterns from it.
+Convolutional Neural Networks (CNNs) - Specialized for vision tasks, preserving spatial context of images.
+Recurrent Neural Networks (RNNs) - Efficient for sequential data, aiding in tasks like predictive text.
+**A Deep Learning Model**- may contain multiple layers of processing. The model learns patterns from data. As data is fed into the neural network, the model adjusts its internal weights based on the difference between its output and the desired result.
+A Deep Learning Model
+
+Advanced Deep Learning
+Generative Models - Aim to generate new data samples similar to input data, useful in creating new content.
+Transformer Architecture - Consisting of encoders and decoders, crucial in language translation and code generation tasks.
+Transformer architecture is a combination of ml approaches consisting of encoders and decoders. Encoders process the input data, in the figure, the input is the English text "What are you doing?".  Decoders produce output. In this example, the Spanish text "Que estas haciendo?"
+Transformer Architecture
+Encoder-Decoder Model
