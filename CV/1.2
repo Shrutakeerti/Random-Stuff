@@ -1,0 +1,81 @@
+Convolutional neural networks are a powerful tool for image classification, object detection, and semantic segmentation. With applications ranging from autonomous driving to anomaly detection in manufacturing to medical imaging.
+Play video starting at ::23 and follow transcript0:23
+Convolutional neural networks, or CNNs, perform tasks like these by extracting useful information from images and using this information to make predictions about the image content.
+Play video starting at ::38 and follow transcript0:38
+In this video, we'll use classification as an example, but the same sort of feature extraction layers is used for other applications.
+Play video starting at ::49 and follow transcript0:49
+CNNs are a type of neural network, which are machine learning algorithms inspired by the human brain.
+Play video starting at ::57 and follow transcript0:57
+They're made of layers containing interconnected units or neurons. These neurons work together to process information with each neuron receiving information from other neurons in the network.
+Play video starting at :1:13 and follow transcript1:13
+Here, a neuron is receiving three inputs, x1, x2, and x3.
+Play video starting at :1:22 and follow transcript1:22
+The neuron multiplies each input by corresponding weights and adds bias.
+Play video starting at :1:30 and follow transcript1:30
+This information is then passed to a nonlinear activation function. This function produces an output that is given to the next layer of the network.
+Play video starting at :1:42 and follow transcript1:42
+The weights and biases are determined by the network during training.
+Play video starting at :1:50 and follow transcript1:50
+All neural networks have layers composed of neurons like these that extract information and detect patterns from the input data to make predictions.
+Play video starting at :2:2 and follow transcript2:02
+CNNs are especially well suited to computer vision because they preserve spatial information when they extract features.
+Play video starting at :2:14 and follow transcript2:14
+Now that you have a sense of what the individual neurons are doing, let's walk through the network layers.
+Play video starting at :2:21 and follow transcript2:21
+The input layer takes in data of an expected format, often RGB images, before passing it to the feature extraction section.
+Play video starting at :2:32 and follow transcript2:32
+Feature extraction begins with a convolutional layer. Convolutional layers are responsible for learning and extracting features from the input data. They do this by performing a mathematical operation called convolution. That's how CNNs got their name.
+Play video starting at :2:51 and follow transcript2:51
+Each convolutional layer contains a set of two dimensional matrices for each color plane called filters or kernels. Convolution involves placing these filters over a set of pixels, or neighborhood of the input matrix. At each location, the central pixel is modified based on a weighted sum of the neighborhood's other pixel values, where the weights are the filter values.
+Play video starting at :3:22 and follow transcript3:22
+The filter is then moved to the next pixel for a new calculation. This continues until the whole image has been filtered.
+Play video starting at :3:33 and follow transcript3:33
+CNNs have many convolutional filters made of weights learned during training.
+Play video starting at :3:39 and follow transcript3:39
+This leads to many types of features being extracted, helping the network learn what is important for different applications. The resulting features are called activations.
+Play video starting at :3:52 and follow transcript3:52
+For example, one filter might find horizontal edges and another might appear to segment objects.
+Play video starting at :4:1 and follow transcript4:01
+As you increase the number of convolutional layers in your network, your features will become more abstract.
+Play video starting at :4:9 and follow transcript4:09
+The outputs of the convolutional layer are passed to the activation layer.
+Play video starting at :4:15 and follow transcript4:15
+This layer uses nonlinear mathematical operations to identify and forward important information while suppressing irrelevant or misleading activations.
+Play video starting at :4:27 and follow transcript4:27
+A popular choice of activation function is the rectified linear unit, or ReLU. ReLU keeps positive values unchanged, but sets negative inputs to zero.
+Play video starting at :4:41 and follow transcript4:41
+There are other activation functions, but they will serve the same purpose in different ways.
+Play video starting at :4:50 and follow transcript4:50
+Next is the pooling layer.
+Play video starting at :4:53 and follow transcript4:53
+This layer reduces the size of the outputs, effectively downsampling the activations and summarizing the most important information.
+Play video starting at :5:3 and follow transcript5:03
+Here, we use max pooling as an example, but other pooling methods will work similarly.
+Play video starting at :5:10 and follow transcript5:10
+Max pooling reduces the activation size by using a small window to find the maximum and outputs only that value. Then the window moves, recording a new maximum until the whole input is analyzed.
+Play video starting at :5:29 and follow transcript5:29
+To capture complex features from a wide variety of images, most CNNs repeat convolution, activation and pooling layers many times in many combinations.
+Play video starting at :5:46 and follow transcript5:46
+Once feature extraction is complete, the final component of a CNN is using the features to make predictions.
+Play video starting at :5:55 and follow transcript5:55
+Remember, we're using classification for demonstrative purposes. But other applications, such as object detection will have analogous processes for turning features into predictions.
+Play video starting at :6:8 and follow transcript6:08
+The first layer in the feature classification section is the fully connected or dense layer. This layer enables the network to learn complex relationships between features and target classes.
+Play video starting at :6:23 and follow transcript6:23
+The fully connected layer is composed of two sets of neurons, with every neuron in the first set connecting to every neuron in the second set.
+Play video starting at :6:33 and follow transcript6:33
+The inputs of the fully connected layer are the activations created during feature extraction, flattened into a one dimensional vector.
+Play video starting at :6:44 and follow transcript6:44
+The fully connected layer uses this flattened feature vector to learn complex patterns. Its output will ultimately be translated into class predictions.
+Play video starting at :6:56 and follow transcript6:56
+This output contains one value for each class and is passed on to the softmax layer.
+Play video starting at :7:5 and follow transcript7:05
+The raw output of the fully connected layer is scaled by the softmax function into a probability distribution with values between 0 and 1.
+Play video starting at :7:18 and follow transcript7:18
+Each softmax output represents the likelihood that an image belongs to a given class. With higher numbers indicating that the image is more likely a member of that class.
+Play video starting at :7:31 and follow transcript7:31
+Finally, the output layer takes this probability distribution and returns the corresponding predicted label. It's important to keep in mind that the probability could be low or similar to other classes, indicating low confidence in the model's prediction. The output layer simply returns whichever class has the highest value.
+Play video starting at :7:56 and follow transcript7:56
+Later, you'll learn to extract these scores to gauge the model's confidence.
+Play video starting at :8:5 and follow transcript8:05
+You've now followed an input through all the layers of a CNN. There are a wide variety of networks. But all CNNs use a sequence of convolutional layers to extract features from images. This makes them powerful, flexible and perfect for deep learning with images.
