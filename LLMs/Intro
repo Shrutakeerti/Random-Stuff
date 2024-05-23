@@ -1,0 +1,14 @@
+LLMs are behind the super popular tools fueling the ongoing generative AI revolution, including ChatGPT, Google Bard, and DALL-E.
+
+These tools rely on a powerful technology that allows them to process data and generate accurate content in response to the question prompted by the user. This is where LLMs kick in.
+They take massive corpus of text data of pretrained data tha are presented or with which we are working.
+
+LLMs are AI systems used to model and process human language.
+They are called “large” because these types of models are normally made of hundreds of millions or even billions of parameters that define the model's behavior, 
+which are pre-trained using a massive corpus of text data.The underlying technology of LLMs is called transformer neural network, simply referred to as a transformer model
+
+The underlying technology of LLMs is called transformer neural network, simply referred to as a transformer.They are capable of performing natural language processing (NLP) tasks with unprecedented accuracy and speed.
+With its unique capabilities, transformers have provided a significant leap in the capabilities of LLMs. 
+It’s fair to say that, without transformers, the current generative AI revolution wouldn’t be possible.
+
+
